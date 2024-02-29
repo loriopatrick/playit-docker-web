@@ -33,7 +33,7 @@ The Web UI where you can setup your playit agent:
 ### Environment
 | Variable Name | Default value | Required or Optional | Description                                                                                                                                                                            |
 |---------------|---------------|---|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| WEBUI_PORT    | 8008          | _Optional_ | The port on the host where the WebUI will be running. Useful when an existing process is running on port `14333` and want to assign playit-docker-web into a different available port. |
+| WEBUI_PORT    | 8008          | _Optional_ | The port on the host where the WebUI will be running. Useful when an existing process is running on port `8008` and want to assign playit-docker-web into a different available port. |
 
 example `docker-compose.yaml`:
 ```yaml
