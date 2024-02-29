@@ -15,7 +15,7 @@ or if using `docker-compose.yml`:
 
 ```yaml
 services:
-  cloudflared:
+  playit:
     image: wisdomsky/playit-docker-web:latest
     restart: unless-stopped
     network_mode: host
@@ -38,7 +38,7 @@ The Web UI where you can setup your playit agent:
 example `docker-compose.yaml`:
 ```yaml
 services:
-  cloudflared:
+  playit:
     image: wisdomsky/playit-docker-web:latest
     restart: unless-stopped
     network_mode: host
@@ -55,7 +55,7 @@ services:
 example `docker-compose.yaml`:
 ```yaml
 services:
-  cloudflared:
+  playit:
     image: wisdomsky/playit-docker-web:latest
     restart: unless-stopped
     network_mode: host
